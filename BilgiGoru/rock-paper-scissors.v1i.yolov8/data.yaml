@@ -1,0 +1,13 @@
+train: C:/Users/Mehmet/PycharmProjects/BilgiGoru/rock-paper-scissors.v1i.yolov8/train/images
+val: C:/Users/Mehmet/PycharmProjects/BilgiGoru/rock-paper-scissors.v1i.yolov8/valid/images
+test: C:/Users/Mehmet/PycharmProjects/BilgiGoru/rock-paper-scissors.v1i.yolov8/test/images
+
+nc: 7
+names: ['B', 'D', 'I', 'Paper', 'Rock', 'Scissors', 'X']
+
+roboflow:
+  workspace: goruproje
+  project: rock-paper-scissors-sxsw-oggnu
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/goruproje/rock-paper-scissors-sxsw-oggnu/dataset/1
